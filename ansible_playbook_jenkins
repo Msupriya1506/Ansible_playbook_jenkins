@@ -1,6 +1,6 @@
 ---
 - name: Install and Configure Jenkins
-  hosts: node
+  hosts: node #node name
   become: yes
   tasks:
     - name: Update apt package cache
